@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/playerBackground" >
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/playerBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <de.mp3rc.viewcomponents.PlayerSeekBar
+            android:id="@+id/playerSeekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/playerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <de.mp3rc.viewcomponents.RepeatButton
+                android:id="@+id/repeatButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="repeatAction" />
+
+            <de.mp3rc.viewcomponents.PrevButton
+                android:id="@+id/prevButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/playButton1"
+                android:layout_toRightOf="@+id/repeatButton1"
+                android:onClick="prevAction" />
+
+            <de.mp3rc.viewcomponents.PlayButton
+                android:id="@+id/playButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="playAction" />
+
+            <de.mp3rc.viewcomponents.NextButton
+                android:id="@+id/nextButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/playButton1"
+                android:onClick="nextAction" />
+
+            <de.mp3rc.viewcomponents.ShuffleButton
+                android:id="@+id/shuffleButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/nextButton1"
+                android:onClick="shuffleAction" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

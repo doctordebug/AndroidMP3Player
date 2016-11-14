@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     >
+    <item 
+        android:id="@+id/opt_preferences"
+		android:orderInCategory="100"
+		android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/menu_preferences"
+        />
+    <item 
+        android:id="@+id/opt_visualizer"
+        android:orderInCategory="75"
+        android:showAsAction="always"
+        android:icon="@drawable/vs_icon"
+        android:title="@string/menu_visualizer"
+        />
+	<item 
+	    android:id="@+id/opt_eq"
+		android:orderInCategory="50"
+		android:showAsAction="always"
+		android:icon="@drawable/eqicon"
+	    />
+    <item 
+        android:id="@+id/opt_music"
+        android:orderInCategory="25"
+        android:showAsAction="always"
+        android:icon="@drawable/music_icon"
+        android:title="@string/musicfiles"
+        />
+	
+</menu>

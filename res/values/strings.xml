@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainValues -->
+    <string name="app_name">MP3RC</string>
+    <string name="permission">todo</string>
+
+    <!-- menu -->
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_visualizer">Visualizer</string>
+    <string name="menu_eq">Equalizer</string>
+    <string name="pref_title_general">General</string>
+    <string name="pref_title_design">Design</string>
+
+    <!-- menu - designs -->
+
+
+    <!-- Key Designs -->
+    <string name="key_design">design</string>
+    <string name="pref_cat_choosedesign">Choose Design</string>
+    <string name="design1">Black-White</string>
+    <string name="design2">Green-White</string>
+    <string name="design3">Pink-White</string>
+    <string name="design4">Black-Red</string>
+    <string name="design5">White-Red</string>
+    <string name="design6">Black-Pink</string>
+    <string name="design7">White-Red</string>
+
+    <string-array name="pref_cat_bgcolor">
+        <item>@string/design1</item>
+        <item>@string/design2</item>
+        <item>@string/design3</item>
+        <item>@string/design4</item>
+        <item>@string/design5</item>
+        <item>@string/design6</item>
+        <item>@string/design7</item>
+    </string-array>
+    <string-array name="pref_cat_bgcolor_keys">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="pref_cat_rowcount">Choose number of colmns</string>
+    <string name="key_rowcount">colmncount</string>
+
+    <string-array name="pref_cat_rowcount_keys_and_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Context-Menu -->
+    <string name="conmenu_play">Play</string>
+    <string name="conmenu_hide">Hide</string>
+    <string name="conmenu_changePicture">Change Picture</string>
+
+    <!-- Hidden Albmums -->
+    <string name="key_albums">hiddenAlbums</string>
+    <string name="pref_cat_albums">Restore hidden Albums</string>
+    <string name="title_activity_restore">RestoreActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="restore">restore</string>
+    <string name="cancel">cancel</string>
+    <string name="noalbumshidden">There are no hidden Albums</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- Buttons -->
+    <string name="enqueueBtn">Enqueue</string>
+    <string name="playAllBtn">Play All</string>
+    <string name="title_activity_visualizer">VisualizerActivity</string>
+    <string name="musicfiles">Musicfiles</string>
+    <string name="title_activity_eq">EQActivity</string>
+
+</resources>

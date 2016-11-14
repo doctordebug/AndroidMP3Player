@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_title_general"></PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_design"
+        android:key="design_pref">
+        <ListPreference android:key="@string/key_design"
+						android:title="@string/pref_cat_choosedesign"		
+						android:entries="@array/pref_cat_bgcolor"	
+						android:entryValues="@array/pref_cat_bgcolor_keys"	
+						android:defaultValue="@string/design1"			            
+            />
+		<ListPreference android:key="@string/key_rowcount"
+		    			android:title="@string/pref_cat_rowcount"
+		    			android:entries="@array/pref_cat_rowcount_keys_and_values"
+		    			android:entryValues="@array/pref_cat_rowcount_keys_and_values"
+		    			android:defaultValue="2"
+		    			/>
+        <Preference android:key="@string/key_albums"
+            		android:title="@string/pref_cat_albums"
+            		/>
+        </PreferenceCategory>
+	
+</PreferenceScreen>

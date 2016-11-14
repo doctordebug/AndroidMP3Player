@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TableRow>
+        <de.mp3rc.fragments.SquareImageItem
+            android:id="@+id/img"
+			android:layout_gravity="center"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:id="@+id/title"
+            android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:layout_weight="5"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp" 
+            android:gravity="center_vertical"
+			android:ellipsize="marquee"
+			android:lines="2"
+			android:maxLines="2"
+			android:paddingBottom="5dp"
+            
+            /> 
+
+	</TableRow>
+</TableLayout>
